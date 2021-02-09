@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: DNS
-  Date: 04.02.2021
-  Time: 20:14
-  To change this template use File | Settings | File Templates.
---%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -15,6 +9,12 @@
 <h2>Home page</h2>
 <hr/>
 Welcome to Home Page!
+
+<!-- Adding logout button -->
+
+<form:form action="${pageContext.request.contextPath}/logout" method="post">
+    <input type="submit" value="Logout"/>
+</form:form>
 
 </body>
 </html>
