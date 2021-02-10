@@ -30,6 +30,13 @@ Welcome to Home Page!
     (Only for Manager peeps)
 </p>
 
+<!-- link to /systems -->
+
+<p>
+    <a href="${pageContext.request.contextPath}/systems">IT System Meeting</a>
+    (Only for Admin peeps)
+</p>
+
 <hr>
 
 <!-- Adding logout button -->
