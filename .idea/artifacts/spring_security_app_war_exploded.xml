@@ -32,6 +32,10 @@
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-acl:5.3.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.2.11.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.2.11.RELEASE" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.22" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
+          <element id="library" level="project" name="Maven: com.mchange:c3p0:0.9.5.5" />
+          <element id="library" level="project" name="Maven: com.mchange:mchange-commons-java:0.2.19" />
         </element>
       </element>
       <element id="directory" name="META-INF">
