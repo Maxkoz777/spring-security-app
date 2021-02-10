@@ -23,12 +23,20 @@ Welcome to Home Page!
 
 <hr>
 
+<security:authorize access="hasRole('MANAGER')">
+
 <!-- link to /leaders -->
 
 <p>
     <a href="${pageContext.request.contextPath}/leaders">Leadership Meeting</a>
     (Only for Manager peeps)
 </p>
+
+<hr>
+
+</security:authorize>
+
+<security:authorize access="hasRole('ADMIN')">
 
 <!-- link to /systems -->
 
@@ -38,6 +46,8 @@ Welcome to Home Page!
 </p>
 
 <hr>
+
+</security:authorize>
 
 <!-- Adding logout button -->
 
