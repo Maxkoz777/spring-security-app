@@ -23,6 +23,15 @@ Welcome to Home Page!
 
 <hr>
 
+<!-- link to /leaders -->
+
+<p>
+    <a href="${pageContext.request.contextPath}/leaders">Leadership Meeting</a>
+    (Only for Manager peeps)
+</p>
+
+<hr>
+
 <!-- Adding logout button -->
 
 <form:form action="${pageContext.request.contextPath}/logout" method="post">
